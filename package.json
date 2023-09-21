@@ -1,0 +1,26 @@
+{
+  "name": "apinodejs",
+  "version": "1.0.0",
+  "description": "Definir local do computador para criar a pasta do projeto\r ```\r mkdir NOME_DO_PROJETO\r ```\r Acessar a pasta do projeto\r ```\r cd NOME_DO_PROJETO\r ```\r Abrir pasta no vs\r ```\r code .\r ```\r Iniciar gerenciador de pacotes node\r ```\r npm init -y\r ```\r Criar arquivo .gitignore\r ```\r touch .gitignore\r ```\r Criar arquivo .env\r ```\r touch .env",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreivupt/apiNodeJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreivupt/apiNodeJs/issues"
+  },
+  "homepage": "https://github.com/andreivupt/apiNodeJs#readme"
+}
